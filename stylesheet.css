@@ -1,0 +1,40 @@
+header {
+	position: fixed;
+	background: #fff;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	height: 60px;
+	border-bottom: 4px solid green;
+}
+
+nav {
+	float: right;
+	padding: 5px;	
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTk7z6qSJdV8wmm0xwR4nrK5OPwhOfXJPqzrIG3ynOlOoGHyc4PSyrvpQ) center;
+	background-size: contain;
+}
