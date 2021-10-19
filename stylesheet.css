@@ -1,40 +1,89 @@
 header {
-	position: fixed;
-	background: #fff;
-	top: 0;
-	left: 0;
-	z-index: 100;
-	width: 100%;
-	height: 60px;
-	border-bottom: 4px solid green;
+	display: flex;
+	margin: 0 auto;
+	height: 80 px;
+	background-color: black;
+	font-size: 15px;
+	align-items: center;
 }
 
-nav {
-	float: right;
-	padding: 5px;	
+a:link {
+	color:#fff;
 }
 
-nav ul {
-	list-style: none;
-	padding: 0;
+a:hover {
+	color:gray;
+}
+
+a:active {
+	color:red;
+}
+
+a:visited {
+	color:blueviolet;
+}
+
+.searchBar {
+    background-color: #fff;
+    display: flex;
+    width: 250px;
+    height: 30px;
+    justify-items: center;
+}
+
+#searchButton {
+	background-color: red;
 }
 
 nav ul li {
 	display: inline-block;
-	float: left;
-	padding: 10px;
+	padding: 20px;
 	box-sizing: border-box;
+	color: #fff;
+	text-transform: uppercase;
 }
 
-nav ul li a {
-	text-decoration: none;
-	color: black;
+.logo {
+	background-color: red;
+	color: white;
+	text-align: center;
 }
 
-#menu-icon {
-	display: hidden;
-	width: 40px;
-	height: 40px;
-	background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTk7z6qSJdV8wmm0xwR4nrK5OPwhOfXJPqzrIG3ynOlOoGHyc4PSyrvpQ) center;
-	background-size: contain;
+.rightside {
+	color:#fff;
+	text-align: right;
+	font-size: 10px;
+	text-transform: uppercase;
+	align-self: flex-end; 
+}
+
+#shop {
+	display: inline-block;
+	justify-content: flex-end;
+}
+
+#cartImage {
+	filter: invert(100%);
+}
+
+footer {
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color:black;
+	width: 100%;
+}
+
+footer ul li {
+	display: inline-block;
+	padding: 20px;
+	box-sizing: border-box;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+h2.contentHeader {
+	text-shadow: 1px 1px;
 }
